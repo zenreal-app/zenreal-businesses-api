@@ -1,0 +1,28 @@
+{
+  "name": "@zenreal/business-api",
+  "version": "1.0.4",
+  "description": "The Zenreal Node library provides convenient access to the Zenreal API from applications written in server-side JavaScript.",
+  "keywords": [
+    "zenreal",
+    "nutrition tracking",
+    "food search",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zenreal-app/zenreal-business-api.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "author": "Zenreal <support@zenreal.app> (https://zenreal.app)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
