@@ -1,6 +1,6 @@
 {
   "name": "@zenreal/business-api",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The Zenreal Node library provides convenient access to the Zenreal API from applications written in server-side JavaScript.",
   "keywords": [
     "zenreal",
