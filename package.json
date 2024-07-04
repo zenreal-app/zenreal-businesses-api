@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/zenreal-app/zenreal-business-api.git"
+    "url": "https://github.com/zenreal-app/zenreal-businesses-api-js"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
