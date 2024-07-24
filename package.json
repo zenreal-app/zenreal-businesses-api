@@ -1,6 +1,6 @@
 {
   "name": "@zenreal/business-api",
-  "version": "1.0.7",
+  "version": "1.0.5",
   "description": "The Zenreal Node library provides convenient access to the Zenreal API from applications written in server-side JavaScript.",
   "keywords": [
     "zenreal",
@@ -10,12 +10,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zenreal-app/zenreal-businesses-api-js"
+    "url": "git://github.com/zenreal-app/zenreal-business-api.git"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "publish": "tsc && npm publish --access public",
     "start": "ts-node src/index.ts"
   },
   "author": "Zenreal <support@zenreal.app> (https://zenreal.app)",
